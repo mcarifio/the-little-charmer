@@ -1,0 +1,2 @@
+# sphinx-build src out, ignore the out/ directory
+out/*
