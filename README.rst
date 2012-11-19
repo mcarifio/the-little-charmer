@@ -9,9 +9,6 @@
 .. |date| date::
 .. |time| date:: %H:%M
 
-.. ref definition
-.. _Sphinx: http://sphinx-doc.org/tutorial.html
-
 :Author: |author| |email|
 
 
@@ -20,7 +17,8 @@ You Are Here
 
 You're reading the `README` for the source content and supporting tooling for the very modest book |book-title|. 
 The canonical repository for this content is '|repo|', a public git repository. The book's contents are also
-encoded using reStructuredText and are located in `source` consistent with the conventions of Sphinx_.
+encoded using reStructuredText and are located in `source` consistent with the conventions of Sphinx 
+<http://sphinx-doc.org/tutorial.html>.
 
 
 Quickstart
@@ -34,13 +32,10 @@ You got this README with the following bash commands (or something similar)::
   git clone $BOOKREPO ; cd $(basename $BOOKROOT .git) # ~/book/a-charming-book
 
 You can read the content directly in `source`/*.rst. reStructuredText is quite readable in
-"source" form. Or you can generate a suitable "output format" such as html using `sphinx`::
+"source" form. Or you can generate a suitable "output format" such as html using ``sphinx-build`` in
+directory ``$BOOKDIR``::
 
-  sphinx-build -b html source build/html
-  gnome-open build/html/index.html
-
-
-
-
+  sphinx-build -b html source build/html # in $BOOKROOT, generates $BOOKROOT/build/html
+  gnome-open build/html/index.html # view HTML output
 
 
