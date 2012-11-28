@@ -1,4 +1,4 @@
-# Makefile for Sphinx documentation, a-charming-book
+# Makefile for Sphinx documentation, the-little-charmer
 #
 
 # You can set these variables from the command line.
@@ -77,17 +77,17 @@ qthelp:
 	@echo
 	@echo "Build finished; now you can run "qcollectiongenerator" with the" \
 	      ".qhcp project file in $(BUILDDIR)/qthelp, like this:"
-	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/a-charming-book.qhcp"
+	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/the-little-charmer.qhcp"
 	@echo "To view the help file:"
-	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/a-charming-book.qhc"
+	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/the-little-charmer.qhc"
 
 devhelp:
 	$(SPHINXBUILD) -b devhelp $(ALLSPHINXOPTS) $(BUILDDIR)/devhelp
 	@echo
 	@echo "Build finished."
 	@echo "To view the help file:"
-	@echo "# mkdir -p $$HOME/.local/share/devhelp/a-charming-book"
-	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/a-charming-book"
+	@echo "# mkdir -p $$HOME/.local/share/devhelp/the-little-charmer"
+	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/the-little-charmer"
 	@echo "# devhelp"
 
 epub:

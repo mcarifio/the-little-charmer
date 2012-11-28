@@ -2,8 +2,8 @@
 .. This file encoded as reStructuredText, see http://docutils.sourceforge.net/rst.html
 .. |author| replace:: Mike Carifio 
 .. |email| replace:: mike@carifio.org
-.. |book-title| replace:: *A Charming Book*
-.. |repo| replace:: https://github.com/mcarifio/a-charming-book.git
+.. |book-title| replace:: *The Little Charmer*
+.. |repo| replace:: https://github.com/mcarifio/the-little-charmer.git
 
 .. http://docutils.sourceforge.net/docs/ref/rst/directives.html#date
 .. |date| date::
@@ -27,9 +27,9 @@ Quickstart
 You got this README with the following bash commands (or something similar)::
 
   export BOOKROOT=~/book
-  export BOOKREPO=https://github.com/mcarifio/a-charming-book.git
+  export BOOKREPO=https://github.com/mcarifio/the-little-charmer.git
   mkdir --parent $BOOKROOT; cd $BOOKROOT
-  git clone $BOOKREPO ; cd $(basename $BOOKROOT .git) # ~/book/a-charming-book
+  git clone $BOOKREPO ; cd $(basename $BOOKROOT .git) # ~/book/the-little-charmer
 
 You can read the content directly in `source`/*.rst. reStructuredText is quite readable in
 "source" form. Or you can generate a suitable "output format" such as html using ``sphinx-build`` in
